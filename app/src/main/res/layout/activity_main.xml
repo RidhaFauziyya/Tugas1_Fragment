@@ -43,6 +43,7 @@ tools:context=".MainActivity">
     app:layout_constraintRight_toRightOf="parent"
     app:layout_constraintTop_toTopOf="@+id/imageView"/>
 
+
 <ScrollView
     android:layout_width="0dp"
     android:layout_height="0dp"

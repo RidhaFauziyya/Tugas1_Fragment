@@ -41,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
                 simpleFragment).addToBackStack(null).commit();
         mButton.setText(R.string.close);
         isFragmentDisplayed = true;
-
     }
 
     public void closeFragment() {
