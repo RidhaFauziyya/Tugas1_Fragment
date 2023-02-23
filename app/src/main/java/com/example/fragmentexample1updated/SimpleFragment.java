@@ -23,6 +23,10 @@ public class SimpleFragment extends Fragment {
         // Required empty public constructor
     }
 
+    public static SimpleFragment newInstance(){
+        return new SimpleFragment();
+    }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
