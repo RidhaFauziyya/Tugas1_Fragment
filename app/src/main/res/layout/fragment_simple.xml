@@ -10,7 +10,7 @@
         android:id="@+id/fragment_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="30dp"
+        android:layout_marginHorizontal="50dp"
         android:layout_marginVertical="30dp"
         android:text="@string/text1"
         android:textColor="@color/black"
