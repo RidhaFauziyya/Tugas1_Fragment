@@ -32,25 +32,6 @@ public class SimpleFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         final View rootView = inflater.inflate(R.layout.fragment_simple, container, false);
-        final RadioGroup radioGroup = rootView.findViewById(R.id.radio_grup);
-
-        radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(RadioGroup radioGroup, int i) {
-                View radioButton = radioGroup.findViewById(i);
-                int index = radioGroup.indexOfChild(radioButton);
-                TextView textView = rootView.findViewById(R.id.fragment_header);
-
-                switch (index){
-                    case 0:
-                        textView.setText(R.string.yes_message);
-                        break;
-                    case 1:
-                        textView.setText(R.string.no_message);
-                        break;
-                }
-            }
-        });
         return rootView;
 
 
